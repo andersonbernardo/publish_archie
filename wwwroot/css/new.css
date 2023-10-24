@@ -1,0 +1,68 @@
+﻿article.buy-card {
+     display:flex;
+     justify-content:center;
+}
+
+article.buy-card .post-it ul li:before {
+    font-size: 1.25em;
+    line-height: 1.2em;
+    color: #fc0;
+    margin-right: .75em;
+
+}
+body.home article.buy-card .post-it ul li:before {
+    content: "\e64c";
+    font-family: themify;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;    
+}
+
+
+body.home article.buy-card .post-it {
+    background: url(../assets/img/post-it-rosa.png?1495686250) 50%;
+    background-size: 100% 100%;
+    padding: 3.25em 4.5em 4.75em 3em;
+    min-width:433px
+    
+}
+
+    body.home article.buy-card .post-it .price {
+        font-size: 1.125em;
+        line-height: 1.33333em;
+        margin-bottom: 2.35em;
+        text-align: center;
+        width: 100%
+    }
+
+        body.home article.buy-card .post-it .price strong, body.projetos article.buy-card .post-it .price strong {
+            font-size: 1.8125em;
+            line-height: 1.06667em;
+            display: inline-block;
+            margin-left: .1em;
+            margin-right: .1em;
+            vertical-align: middle
+        }
+
+        body.briefing article.step-04 .post-it ul, body.home article.buy-card .post-it ul {
+            margin-bottom: 1.75em
+        }
+
+        body.home article.buy-card .post-it ul li {
+            font-size: 1em;
+            line-height: 1.65em
+        }
+
+
+@media (max-width: 767px) {
+    article.buy-card {
+        flex-direction: column; /* Muda a direção do flexbox para coluna */
+        display: flex;
+        justify-content: center;
+    }     
+}
+
