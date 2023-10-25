@@ -1,0 +1,96 @@
+﻿button.leroy {
+    line-height: 1.5em;
+    background: #72bf44;
+    color: #3e4f59;
+    cursor: pointer;
+    height: 3em;
+    outline: 0;
+    padding: .27em 1.4em
+}
+
+    button.leroy:hover {
+        background-color: #568a37;
+        color: #3e4f59;
+    }
+
+
+.logo-leroy {
+    clear: both;
+    float: left;
+    margin-left: 44.16667%;
+    zoom: 1;
+    margin-top: 40px;
+}
+
+input.leroy {
+    border: 1px solid #72bf44;
+    color: #72bf44;
+    height: 3em;
+    margin-bottom: 0;
+    padding: .5em .6em
+}
+
+    input.leroy:focus {
+        border: 1px solid #568a37;
+    }
+
+body.cadastro article.step-01 .box, body.cadastro article.step-02 .box, body.cadastro article.step-03 .box, body.fale-conosco article .box-leroy {
+    clear: both;
+    width: 41.66667%;
+    float: left;
+    margin-left: 29.16667%;
+    margin-right: -100%;
+    border: 1px solid #72bf44;
+    *zoom: 1;
+    padding: 2em
+}
+
+body.fale-conosco article form fieldset input.leroy:valid ~ label {
+    color: #72bf44;
+}
+
+body.briefing section#steps ul li.active span.leroy:before {
+    background: #72bf44;
+    border: 1px solid #72bf44
+}
+
+.logo-leroy {
+    clear: both;
+    float: left;
+    margin-left: 44.16667%;
+    zoom: 1;
+    margin-top: 40px;
+}
+
+body.fale-conosco article .box-leroy {
+    clear: both;
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    padding: 1em
+}
+
+body.fale-conosco article .border-leroy {
+    border: 1px solid #72bf44;
+}
+
+footer .copyright, footer .logo {
+    clear: both;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+@media only screen and (max-width:599px) {
+    .logo-leroy {
+        margin-left: 23.16667%;
+    }
+}
+
+@media only screen and (max-width:599px) {
+
+    .logo-leroy {
+        margin-left: 23.16667%;
+    }
+}

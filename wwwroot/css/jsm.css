@@ -1,0 +1,96 @@
+﻿button.jsm {
+    line-height: 1.5em;
+    background: #005f9f;
+    color: white;
+    cursor: pointer;
+    height: 3em;
+    outline: 0;
+    padding: .27em 1.4em
+}
+
+    button.jsm:hover {
+        background-color: #005f9f;
+        color: #3e4f59;
+    }
+
+
+.logo-jsm {
+    clear: both;
+    float: left;
+    margin-left: 44.16667%;
+    zoom: 1;
+    margin-top: 40px;   
+}
+
+input.jsm {
+    border: 1px solid #005f9f;
+    color: #005f9f;
+    height: 3em;
+    margin-bottom: 0;
+    padding: .5em .6em
+}
+
+    input.jsm:focus {
+        border: 1px solid #005f9f;
+    }
+
+body.cadastro article.step-01 .box, body.cadastro article.step-02 .box, body.cadastro article.step-03 .box, body.fale-conosco article .box-jsm {
+    clear: both;
+    width: 41.66667%;
+    float: left;
+    margin-left: 29.16667%;
+    margin-right: -100%;
+    border: 1px solid #005f9f;
+    *zoom: 1;
+    padding: 2em
+}
+
+body.fale-conosco article form fieldset input.jsm:valid ~ label {
+    color: #005f9f;
+}
+
+body.briefing section#steps ul li.active span.jsm:before {
+    background: #005f9f;
+    border: 1px solid #005f9f
+}
+
+.logo-jsm {
+    clear: both;
+    float: left;
+    margin-left: 44.16667%;
+    zoom: 1;
+    margin-top: 40px;
+}
+
+body.fale-conosco article .box-jsm {
+    clear: both;
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    padding: 1em
+}
+
+body.fale-conosco article .border-jsm {
+    border: 1px solid #005f9f;
+}
+
+footer .copyright, footer .logo {
+    clear: both;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+@media only screen and (max-width:599px) {
+    .logo-jsm {
+        margin-left: 23.16667%;
+    }
+}
+
+@media only screen and (max-width:599px) {
+
+    .logo-jsm {
+        margin-left: 23.16667%;
+    }
+}
